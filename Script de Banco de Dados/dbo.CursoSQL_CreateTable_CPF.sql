@@ -1,0 +1,12 @@
+USE CursoSQL
+GO
+BEGIN
+	IF NOT EXISTS (SELECT * FROM sysobjects WHERE NAME = 'CPF' AND xtype='U')
+	    CREATE TABLE CPF (
+	        IdCPF INT NOT NULL IDENTITY (1,1),
+			IdFuncionario INT NOT NULL,
+			CPF VARCHAR (14) NOT NULL,
+			PRIMARY KEY(IdCPF),
+			CONSTRAINT fk_CPF FOREIGN KEY (IdFuncionario) REFERENCES Funcionario (IdFuncionario)
+	    ) 
+END
