@@ -1,5 +1,5 @@
 ## Curso de SQL Completo Gratuito
-### Curso de SQL Completo do básico ao avançado pela SoftBlue Gratuito
+### Curso gratuito de SQL Completo do básico ao avançado ministrado pela SoftBlue
 
 ### Olá a todos sejam bem vindos ao meu github!
 ###### Este projeto trata-se de um Curso completo de SQL e banco de dados que eu fiz e estou divulgando!
